@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*barra navegación*/
+
+.barra-nav{
+    border: 2px solid rgb(185, 185, 185);
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 100px;
+    border-radius: 10px;
+}
+
+.nav-izquierda{
+    display: flex;
+    justify-content: flex-start;
+    width: 65%;
+    height: auto;
+}
+
+.nav-izquierda img{
+    width: 90px;
+    height: 75px;
+    margin: 0;
+    border-radius: 3px;
+}
+
+.nav-izquierda button{
+    background-color: rgb(228, 228, 228);
+    padding: 5px 35px;
+    border: 1px solid rgb(223, 223, 223);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.buscador{
+    margin: 20px 30px;
+}
+
+.buscador input{
+    padding: 6px 30px;
+    border-radius: 25px;
+    border: 1px solid rgb(161, 161, 161);
+}
+
+.buscado-icono {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -29px;
+    padding-left: 15px;
+}
+
+.flecha{
+    background-color: rgb(88, 157, 255);
+    color: white;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 6px 10px;
+}
+
+/*contenedor principal*/
+
+.contenedor-foto-principal{
+    margin: 0 100px;
+    border-radius: 10px;
+}
+
+.foto-principal{
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.contenedor-foto{
+    background-color: rgb(87, 87, 87);
+    padding: 15px 30px;
+    margin-top: -5px;
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: aliceblue;
+}
+
+.info-contenedor-foto span{
+    padding: 0 20px;
+    color: gray;
+    font-size: 25px;
+}
+
+.contenedor-foto a{
+    color: rgb(127, 214, 255);
+    text-decoration: none;
+}
+
+
+/*contenedor abajo*/
+
+.contenedor-inferior{
+    border: 3px solid rgb(181, 180, 180);
+    margin: 20px 100px 0px;
+    border-radius: 5px;
+}
+
+.texto-superior{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    align-items: center;
+}
+
+.texto-superior button{
+    background-color: rgb(73, 135, 228);
+    border-radius: 5px;
+    padding: 12px 30px;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.texto-superior button span{
+    padding-left: 90px;
+    padding-right: 10px;
+    color: #d7d5d5;
+}
+
+
+.texto-superior p{
+    color: rgb(183, 183, 183);
+    font-size: 35px;
+}
+
+.texto-superior p span{
+    font-size: 40px;
+    margin-left: 10px;
+    color: rgb(212, 212, 212);
+}
+
+/*cuadrado central*/
+
+.texto-central{
+    border-top: 3px solid rgb(181, 180, 180);
+    border-bottom: 3px solid rgb(181, 180, 180);
+    display: flex;
+}
+
+.cuadrado{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.icono-texto{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    width: 100%;
+}
+
+.icono-texto img{ 
+    width: 30px;
+    height: 30px;
+}
+
+.cuadrado h3{
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.cuadrado p{
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.video-grande{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.cuadrado button{
+    background-color: rgb(89, 144, 226);
+    border: 1px solid rgb(130, 130, 255);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding: 8px 0;
+    margin-bottom: 20px;
+}
+
+.linea{
+    border-right: 1px solid rgb(180, 181, 181);
+    padding: 5px 8px;
+}
+
+/*contenedor inferior*/
+
+.contenedor-abajo{
+    height: 80px;
+}
+
+/*lista abajo*/
+
+.contenedor-lista-inferior{
+    display: flex;
+    height: auto;
+    margin: 60px 100px 50px;
+}
+
+.caja-lista{
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.caja-lista1{
+    width: 100%;
+    height: auto;
+}
+
+.titulo-caja-lista{
+    border-bottom: 1px solid rgb(71, 71, 71);
+    padding: 20px 0;
+}
+
+.caja-p{
+    margin-top: 15px;
+}
+
+.caja-p p{
+    color: rgb(49, 49, 49);
+    padding: 6px 0;
+}
+
+/*pie de pagina*/
+
+.pie-pagina{
+    border-top: 1px solid rgb(81, 81, 81);
+    margin: 30px 100px 50px;
+    padding-top: 30px;
+}
+
+.pie-pagina a{
+    color: rgb(58, 138, 228);
+}
